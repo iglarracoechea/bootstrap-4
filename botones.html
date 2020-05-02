@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Botones</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	</head>
+	<body>
+		<button class="btn btn-primary font-weight-bold" >Prueba</button><!--btn para botones.Ya viene con el efecto hover-->
+		<button class="btn btn-danger text-warning" >Prueba</button>
+		<button class="btn btn-info text-warning" >Prueba</button>
+		<button class="btn btn-link" >Prueba</button>
+		<button class="btn btn-success" >Prueba</button>
+		<button class="btn btn-secondary" >Prueba</button>
+
+		<br><br>
+
+		<a class="btn btn-dark" href="#">Enlace</a>   <!-- se puede usar para enlaces-->
+		
+		
+		<button type="submit" name="Submit" class="btn-danger">Enviar</button> 
+		<br> <br> <br> <br><br><br><br>
+		<form name="formulaio" method="get" action="procesar.php">
+			<label for="Usuario">Usuario</label>
+			<input type="text" name="Usuario:">
+			<label for="pass">Contraseña:</label>
+			<input type="password" name="pass">
+			<label for="color">Color</label>
+			<input type="color" name="color">
+			<label class="email">Email</label>
+			<input type="email" name="email" required="">
+			<label for="sexo">Sexo</label>
+			<input type="radio" name="sexo" value="h">Hombre
+			<input type="radio" name="sexo" value="m">Mujer
+			<input type="submit" name="Enviar" value="Enviar">
+			<label for="date">Fecha</label>
+			<input type="date" name="date">
+			<label>País:</label>
+			<select name="Pais">
+				<option value="Argentina">Argentina</option>
+			</select><br><br>
+			<input type="button" class="btn btn-primary" name="" value="Aceptar">
+			<input type="reset" name="" value="refresh" class="btn btn-warning"> <!--button siempre debe tener un value-->
+		</form>
+
+		<br> <br> <hr>
+
+		<button class="btn btn-outline-primary">Button</button>
+		<button class="btn btn-outline-secondary">Button</button> 
+		<button class="btn btn-outline-danger">Button</button> 
+		<button class="btn btn-outline-muted">Button</button>
+		<button class="btn btn-outline-info">Button</button>   <!-- para border outline-->
+
+		<br> <br> <hr>
+
+		<button class="btn btn-danger btn-lg">Button</button>   <!-- btn-lg/sm para tamaño-->
+		<button class="btn btn-danger btn-sm">Button</button>
+		<br><br>
+		<button class="btn btn-danger btn-block">Button</button> <!-- boton para todo el ancho-->
+		<br><br><br><br>
+		
+		<button class="btn btn-danger btn-lg">
+			<i class="fa fa-user"></i> Button
+		</button> <!--font-awesome biblioteca  de iconos-->
+
+		<hr><hr> <br><br>	
+		<button class="btn btn-danger active ml-5">Button</button> 
+
+		<button class="btn btn-success disabled ml-5">Button</button>  <!--disable:saca el estado por defecto -->
+		
+		<button class="btn btn-success ml-5 data-toggle="button">Hola</button>
+
+		<hr><hr><br><br>
+		
+		<h1 class="h3">Dropdown Menu</h1><br>
+		<div class="dropdown"><!-- data-toggle=dropdown permite ver un submenu. dropdown-toggle: agrega icono de flecha-->
+			<button class="btn btn-primary ml-5 dropdown-toggle" data-toggle="dropdown">Elegir</button>	
+			<div class="dropdown-menu"> <!-- oculta el menu, y lo muestra cuando se hace click-->
+				<a href="#" class="dropdown-item">Uno</a>
+				<a href="#" class="dropdown-item">Dos</a>
+				<a href="#" class="dropdown-item">Tres</a>
+			</div>
+		</div>
+
+		<hr><hr><hr><hr>
+
+		<div class="btn-group"> <!-- para agrupar botones-->
+			<button class="btn btn-dark">Mi boton</button>
+			<button class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">Toggle Dropdown </button>
+			<div class="dropdown-menu">
+				<a href="#" class="dropdown-item">Uno</a>
+				<a href="#" class="dropdown-item">Due</a>
+				<a href="#" class="dropdown-item">Tre</a>
+			</div>
+		</div>
+		<br><br><br>
+		<div class="btn-group">
+			<button class="btn btn-dark">Mi boton</button>
+			<button class="btn btn-dark">Mi boton</button>
+			<button class="btn btn-dark">Mi boton</button>
+		</div>
+
+		<br><br><br>
+
+		<div class="btn btn-toolbar" role="toolbar">
+			<div class="btn-group">
+				<button class="btn btn-outline-primary">1</button>
+				<button class="btn btn-outline-primary">2</button>
+				<button class="btn btn-outline-primary">3</button>
+				<button class="btn btn-outline-primary">4</button>
+			</div>
+
+			<div class="btn-group ml-2">  <!-- sirve para una paginación-->
+				<button class="btn btn-outline-primary">5</button>  
+				<button class="btn btn-outline-primary">6</button>
+				<button class="btn btn-outline-primary">7</button>
+				<button class="btn btn-outline-primary">8</button>
+			</div>
+			<button class="btn btn-outline-primary">9</button>
+		</div>
+
+		<h1 class="">Botones verticales</h1>
+
+			<div class="btn-group-vertical ml-3">
+				<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">1</button>
+				<div class="dropdown-menu">
+					<a href="#" class="dropdown-item">dos</a>
+				</div>
+				<button class="btn btn-outline-primary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown">2</button>
+				<button class="btn btn-outline-primary">3</button>
+				<button class="btn btn-outline-primary">4</button>
+			</div>
+			<hr><hr>
+
+			<div class="dropdown">
+  				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  				</button>
+  				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    				<a class="dropdown-item" href="#">Action</a>
+    				<a class="dropdown-item" href="#">Another action</a>
+    				<a class="dropdown-item" href="#">Something else here</a>
+  				</div>
+			</div>
+			
+			<script src="js/jquery-3.4.1.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+			<script src="js/bootstrap.min.js"></script>
+		
+
+	</body>
+	
+</html>

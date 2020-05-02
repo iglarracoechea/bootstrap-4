@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>List Groups</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	</head>
+	<body class="container">
+
+		<ul class="list-group">
+			<li class="list-group-item">Lorem 3</li>
+			<li class="list-group-item">Lorem 3</li>
+			<li class="list-group-item">Lorem 3</li>
+			<li class="list-group-item">Lorem 3</li>
+		</ul>
+
+		<br><br>
+		<ul>
+			<a class="list-group-item" href="#">Enlace</a>
+			<a class="list-group-item" href="#">Enlace</a>
+		</ul>
+		
+		<hr><hr>
+
+		<ul class="w-25">
+			<a class="list-group-item text-dark list-group-item-warning" href="#">Enlace 2</a>
+			<a class="list-group-item text-success list-group-item-danger" href="#">Enlace 3</a>
+			<a class="list-group-item text-dark list-group-item-secondary" href="#">Enlace 2</a>
+			<a class="list-group-item text-success list-group-item-primary" href="#">Enlace 3</a>
+			<a class="list-group-item text-dark list-group-item-info" href="#">Enlace 2</a>
+			<a class="list-group-item text-success list-group-item-dark" href="#">Enlace 3</a>
+		</ul>
+
+		<ul class="list-group"> <!-- badge: para notificaciones. pill:forma circular-->
+			<a href="#" class="list-group-item">Lorem <span class="badge">14</span></a>
+				<a href="#" class="list-group-item">Lorem <span class="badge badge-primary">14</span></a>
+				<a href="#" class="list-group-item d-flex justify-content-around align-items-center bg-danger w-25">Lorem <span class="badge badge-primary badge-pill">14</span></a>
+		</ul>
+		<br><br><hr>
+		
+		<div class="list-group w-50 mb-5"> <!-- active: activa el estado por defecto. action:desactiva el estado a.-->
+			<a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+				<div class="d-flex w-100 justify-content-between">
+					<h5 class="mb-1">Lorem Ipsum</h5>
+					<small>3 days ago</small>
+				</div>
+				<p class="mb-1">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+			</a>
+		</div>
+		<br><br>
+		
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item">Lorem</li>
+		</ol>
+
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item">Lorem</li>
+			<li class="breadcrumb-item active">Lorem</li>
+		</ol>
+
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item">Lorem</li>
+			<li class="breadcrumb-item">Lorem</li>
+			<li class="breadcrumb-item active">Lorem</li>
+		</ol>
+		
+		<br><br><br><br><br><br><br>
+
+		<div class="dropdown">
+			<button class="bt btn-dark dropdown-toogle" data-toggle="dropdown">Botón</button>
+			<div class="dropdown-menu">
+				<a href="#" class="dropdown-item bg-danger">Hola</a>
+			</div>
+		</div>
+
+		<br><br><br><br><br><br><br>
+
+		<div class="btn-group">
+				<button class="btn btn-dark">Mi boton</button>
+				<button class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">Toggle Dropdown </button>
+				<div></div>
+			
+		</div>
+		
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	</body>
+
+</html>

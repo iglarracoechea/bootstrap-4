@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Navegaciones</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	</head>
+	<body> <!-- md de medio--> 
+		<nav class="navbar navbar-expand-md navbar-light bg-danger fixed-top">
+			<a href="#" class="navbar-brand">App</a>
+			<div class="container">	
+				<nav class="navbar-collapse">
+					<ul class="navbar-nav ml-auto"> <!-- auto= lo tira a la derecha-->
+						<li class="nav-item"><a class="nav-link" href="#">Home</a></li><!--desactiva por defecto-->
+						<li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</nav>
+
+		<hr>
+
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a href="#" class="navbar-brand">App</a><!--data-toggle="collapse: esconde el nav cuando se achica la pantalla-->
+			<button type="button" class="navbar-toggler" data-target="#firstnavbar" data-toggle="collapse"><span class="navbar-toggler-icon"></span></button><!--toggler-icon= muestra el boton-->
+			<div class="container">	
+				<div class="navbar-collapse" id="firstnavbar"><!--referencia al data-target-->
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<hr>
+
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a href="#" class="navbar-brand">App</a><!--data-toggle="collapse: esconde el nav cuando se achica la pantalla-->
+			<button type="button" class="navbar-toggler" data-target="#secondnavbar" data-toggle="collapse"><span class="navbar-toggler-icon"></span></button><!--toggler-icon= muestra el boton-->
+			<div class="container">	
+				<div class="navbar-collapse" id="secondnavbar"><!--referencia al data-target-->
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+					</ul>
+					<form class="form-inline"><!-- form-control:lo personaliza-->
+						<input type="text" class="form-control" placeholder="Search">
+						<button type="button" class="btn btn-outline-success ml-3">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+		<hr>
+
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a href="#" class="navbar-brand">App</a><!--data-toggle="collapse: esconde el nav cuando se achica la pantalla-->
+			<button type="button" class="navbar-toggler" data-target="#thirdnavbar" data-toggle="collapse"><span class="navbar-toggler-icon"></span></button><!--toggler-icon= muestra el boton-->
+			<div class="container">	
+				<div class="navbar-collapse" id="thirdnavbar"><!--referencia al data-target-->
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Parent Item</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">hola</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+
+
+
+
+
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	</body>
+
+</html>

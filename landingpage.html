@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta>
+		<title>LandingPage</title>
+		<link rel="stylesheet" type="text/css" href="">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+	</head>
+	<body>
+		<!--nav-->
+			<nav class="navbar navbar-expand-md bg-dark"><!-- /: me manda al inicio de la aplicación-->
+				<div class="container"> <!--.navbar-brand for your company, product, or project name. container=centrado-->
+					<a href="/" class="navbar-brand ml-5"><img src="logo.png" style="width: 20%;"></a>
+					<button class="navbar-toggler btn btn-secondary" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          			<span class="navbar-toggler-icon"></span>
+        			</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ml-auto"><!-- lo manda hacia la derecha-->
+							<li class="nav-item"><a href="#" class="nav-link text-light">About</a></li>
+							<li class="nav-item"><a href="#" class="nav-link text-light">Team</a></li>
+							<li class="nav-item"><a href="#" class="nav-link text-light">Contact</a></li>
+						</ul>
+					</div>
+				</div>	
+			</nav>
+		<!--header-->
+		<header class="main-header">
+				<div class="background-overlay text-white py-5">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 text-center justify-content-center  align-self-center">
+								<h1 class="">This is a title or a phrase related to the product</h1>
+								<p>Lorem Ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, fugiat. Come stai.</p>
+								<a href="#" class="btn btn-outline-secondary btn-lg text-white ">Read More</a>
+							</div>
+							<div class="col-md-6">
+								<img src="product.png" alt="product" class="img-fluid d-none d-sm-block"><!--img-fluid para responsive-->
+							</div>
+						</div>
+					</div>
+				</div>
+		</header>
+		<!--newletter-->
+		<section class="bg-dark text-white py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<input type="text" name="name" class="form-control-lg" placeholder="Enter your Name" >
+					</div>
+					<div class="col-md-4">
+						<input type="email" name="email" class="form-control-lg" placeholder="Enter your Email">
+					</div>
+					<div class="col-md-4">
+						<button   type="button" class="btn btn-primary btn-lg btn-block">Suscribe</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--features-->
+		<section class="py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="card text-center text-dark border-primary">
+							<div class="card-body">
+								<h5 class="card-title">Feature One</h5><!--card-text/title=saca el borde de la caja-->
+								<p class="card-text">Amet alias a ipsa tempora ullam asperiores aperiam rem?</p>
+							</div>
+						</div>
+					</div>	
+					<div class="col-md-3">
+						<div class="card text-center text-light bg-primary">
+							<div class="card-body">
+								<h5 class="card-title">Feature Two</h5>
+								<p class="card-text">Amet alias a ipsa tempora ullam asperiores aperiam rem?</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="card text-center text-dark border-primary">
+							<div class="card-body">
+								<h5 class="card-title">Feature Three</h5>
+								<p class="card-text">Amet alias a ipsa tempora ullam asperiores aperiam rem?</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="card text-center text-light bg-primary">
+							<div class="card-body">
+								<h5 class="card-title">Feature Four</h5>
+								<p class="card-text">Amet alias a ipsa tempora ullam asperiores aperiam rem?</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--about-->
+		<section class="bg-light text-center m-5">
+			<div class="container">
+				<div class="row">
+					<div class="m-5">
+						<h3>Why this product</h3>
+						<p>Consectetur dolor at delectus dolores fugiat! Rerum inventore cumque quidem corporis iusto temporibus nesciunt minima! Harum harum qui dolores natus dolore repudiandae quae animi aliquid nobis sed? Quod culpa quia?</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--accordion-->
+		<section class="container text-center p-5">
+      		<div class="row">
+        		<div class="accordion" id="accordionExample">
+          			<div class="card">
+            			<div class="card-header" id="headingOne">
+              				<h5 class="mb-0">
+                				<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"	>¿Question One?</button>
+              				</h5>
+            			</div>
+						<div id="collapseOne" class="collapse-show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              				<div class="card-body">
+                				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              				</div>
+            			</div>
+          			</div>
+          			<div class="card">
+            			<div class="card-header" id="headingTwo">
+              				<h5 class="mb-0">
+                				<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Collapsible Group Item #2
+                				</button>
+              				</h5>
+            			</div>
+            			<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              				<div class="card-body">
+                				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              				</div>
+           				 </div>
+          			</div>
+          			<div class="card">
+            			<div class="card-header" id="headingThree">
+              				<h5 class="mb-0">
+                				<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Collapsible Group Item #3</button>
+              				</h5>
+            			</div>
+            			<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              				<div class="card-body">
+               					<p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+              				</div>
+            			</div>
+          			</div>
+        		</div>
+      		</div>
+    	</section>
+    	<!--team-->
+    	<section class="text-center team pb-5 px-5">
+    		<div class="container p-5">
+    			<h1 class="text-center text-light">Team</h1>
+    			<p class="text-light ">Adipisicing unde eum odio aliquam dolor ad voluptas expedita consequuntur aperiam inventore eaque. Dolorum facilis aut eum a delectus. Fugit velit quas harum quisquam amet provident inventore. Repudiandae repudiandae delectus.</p>
+    		</div>
+    		<div class="row">
+    			<div class="col-lg-3">
+    				<div class="card">
+    					<div class="card-body">
+    						<img src="person.jpg" class="img-fluid rounded-circle w-50">
+    						<div class="card-title"><h3>John Carter</h3></div>
+    						<div class="card-text">
+    							<p>Dolor modi repudiandae quia beatae consectetur? Nam ullafugit ullam, accusamus! Totam mollitia eveniet!</p>
+    						</div>
+    					</div>
+    					<div class=" p-4 d-flex justify-content-around">
+    						<div>
+    							<a href="#"><i class="fab fa-facebook-f"></i></a>
+    						</div>
+    						<div>
+    							<a href="#"><i class="fab fa-twitter"></i></a>
+    						</div>
+    						<div>
+    							<a href="#"><i class="fab fa-instagram"></i></a>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-3 container">
+    				<div class="card">
+    					<div class="card-body">
+    						<img src="person.jpg" class="img-fluid rounded-circle w-50">
+    						<div class="card-title">
+    							<h3>John Carter</h3>
+    						</div>
+    						<div class="card-text">
+    							<p>Dolor modi repudiandae quia beatae consectetur? Nam ullafugit ullam, accusamus! Totam mollitia eveniet!</p>
+    						</div>
+    					</div>
+    					<div class=" p-4 d-flex justify-content-around">
+    						<div>
+    							<a href="#"><i class="fab fa-facebook-f"></i></a>
+    						</div>
+    						<div>
+    							<a href="#"><i class="fab fa-twitter"></i></a>
+    						</div>
+    						<div>
+    							<a href="#"><i class="fab fa-instagram"></i></a>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-3 container">
+    				<div class="card">
+    					<div class="card-body">
+    						<img src="person.jpg" class="img-fluid rounded-circle w-50">
+    						<div class="card-title">
+    							<h3>John Carter</h3>
+    						</div>
+    						<div class="card-text">
+    							<p>Dolor modi repudiandae quia beatae consectetur? Nam ullafugit ullam, accusamus! Totam mollitia eveniet!</p>
+    						</div>
+    					</div>
+    					<div class=" p-4 d-flex justify-content-around">
+    						<div>
+    							<a href="#"><i class="fab fa-facebook-f"></i></a>
+    						</div>
+    						<div>
+    							<a href="#"><i class="fab fa-twitter"></i></a>
+    						</div>
+    						<div>
+    							<a href="#"><i class="fab fa-instagram"></i></a>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-3 container">
+    				<div class="card">
+    					<div class="card-body">
+    						<img src="person.jpg" class="img-fluid rounded-circle w-50">
+    						<div class="card-title">
+    							<h3>John Carter</h3>
+    						</div>
+    						<div class="card-text">
+    							<p>Dolor modi repudiandae quia beatae consectetur? Nam ullafugit ullam, accusamus! Totam mollitia eveniet!</p>
+    						</div>
+    					</div>
+    					<div class=" p-4 d-flex justify-content-around">
+    						<div>
+    							<a href="#"><i class="fab fa-facebook-f"></i></a>
+    						</div>
+    						<div>
+    							<a href="#"><i class="fab fa-twitter"></i></a>
+    						</div>
+    						<div>
+    							<a href="#"><i class="fab fa-instagram"></i></a>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    			
+    		</div>
+    		
+    	</section>
+		<!--contact-->
+		<section class="bg-light p-4">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-9">
+						<h3>Contact</h3>
+						<p>Consectetur neque numquam autem animi?</p>
+						<form action="">
+							<div class="input-group mb-3">
+  								<div class="input-group-prepend">
+    								<span class=" fas fa-user input-group-text" id="basic-addon1"></span>
+ 								 </div>
+  								<input type="text" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1">
+							</div>
+							<div class="input-group mb-3">
+  								<div class="input-group-prepend">
+    								<span class=" fas fa-envelope input-group-text" id="basic-addon1"></span>
+ 								 </div>
+  								<input type="Email" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+							</div>
+							
+							<div class="input-group mb-3">
+  								<div class="input-group-prepend">
+    								<span class="fas fa-pencil-alt input-group-text" id="basic-addon1"></span>
+ 								 </div>
+  								 <textarea cols="30" rows="10" class="form-control" aria-label="With textarea" placeholder="Message"></textarea>
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-3 justify-content-center align-self-center">
+						<img src="logo.png">
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+
+    	<!--contact-->
+    	<footer>
+      		<div class="p-3">
+        		<div class="row text-center text-white">
+         			 <div class="col-sm-12 ml-auto">
+            			<p>Copyright &copy; 2018</p>
+          			</div>
+        		</div>
+      		</div>       
+    	</footer>
+
+    
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+
+</html>
+
+
+<!--aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"-->

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Formularios</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</head>
+	<body class="container bg-danger"> <!-- container es para centrarlo-->
+		<form  name="form" method="post" action="form.php" class="w-50">
+			<label for="nombre">Nombre:</label>
+			<div class="input-group input-group-md">
+				<div class="input-group-prepend	"></div>
+					<span class="fa fa-user input-group-text"></span>
+				<input type="text" name="nombre" class="form-control" required="" placeholder="Nombre">
+			</div>
+			<label for="email" name="email">Email</label>
+			<input type="email" name="email" required="" class="form-control " placeholder="Email">
+			<label for="Contraseña">Contraseña:</label>
+			<input type="password" name="nombre" class="form-control" required="" placeholder="Password">
+			<label for="recordar" class="form-check-label ml-4 mt-2" name="recordar">
+			<input type="checkbox" class="form-check-input" name="">Recordar
+			</label><br>
+			<input type="submit" name="enviar" value="Enviar" class="btn btn-primary mt-3"><br><br>
+			<label class="radio-inline" name="gusto">
+				
+				<input type="radio" name="gusto"> Television
+			</label>
+			<label class="radio-inline ml-3" name="gusto">
+				
+				<input type="radio" name="gusto"> Television
+			</label>
+			<label class="radio-inline ml-3" name="gusto">
+				
+				<input type="radio" name="gusto"> Television
+			</label>	
+			
+		</form>
+		
+		<br><br>
+		<div class="dropdown">
+  				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  				</button>
+  				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    				<a class="dropdown-item" href="#">Action</a>
+    				<a class="dropdown-item" href="#">Another action</a>
+    				<a class="dropdown-item" href="#">Something else here</a>
+  				</div>
+		</div>
+		<hr> <br>
+		<div class="dropdown-menu">
+		  	<form class="px-4 py-3">
+    			<div class="form-group">
+      				<label for="exampleDropdownFormEmail1">Email address</label>
+     			 	<input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+    			</div>
+    			<div class="form-group">
+      				<label for="exampleDropdownFormPassword1">Password</label>
+      				<input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+    			</div>
+  		    	<div class="form-check">
+      				<input type="checkbox" class="form-check-input" id="dropdownCheck">
+      				<label class="form-check-label" for="dropdownCheck">Remember me</label>
+    			</div>
+    			<button type="submit" class="btn btn-primary">Sign in</button>
+  			</form>
+  			<div class="dropdown-divider"></div>
+  			<a class="dropdown-item" href="#">New around here? Sign up</a>
+  			<a class="dropdown-item" href="#">Forgot password?</a>
+		</div>
+
+		<section class="bg-light p-4">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-9">
+						<h3>Contact</h3>
+						<p>Consectetur neque numquam autem animi?</p>
+						<form action="">
+							<div class="input-group mb-3">
+  								<div class="input-group-prepend">
+    								<span class=" fas fa-user input-group-text" id="basic-addon1"></span>
+ 								 </div>
+  								<input type="text" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1">
+							</div>
+							<div class="input-group mb-3">
+  								<div class="input-group-prepend">
+    								<span class=" fas fa-envelope input-group-text" id="basic-addon1"></span>
+ 								 </div>
+  								<input type="Email" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+							</div>
+							
+							<div class="input-group mb-3">
+  								<div class="input-group-prepend">
+    								<span class="fas fa-pencil-alt input-group-text" id="basic-addon1"></span>
+ 								 </div>
+  								 <textarea cols="30" rows="10" class="form-control" aria-label="With textarea" placeholder="Message"></textarea>
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-3 justify-content-center align-self-center">
+						<img src="logo.png">
+					</div>
+				</div>
+			</div>
+
+
+		</section>
+		<br><br><br><br>
+
+		<form action="">
+			<div class="input-group p-5">
+				<div class="input-group-append">
+					<button class="btn btn-dark dropdown-toggle" data-toggle="dropdown">Dropdown</button>
+					<div class="dropdown-menu bg-primary">
+						<a href="#" class="dropdown-item">Garchar</a></i>
+						<a href="#" class="dropdown-item">jajaja</a></i>
+						<div role="divider"class="dropdown-divider active"></div>
+							<a href="#" class="dropdown-item">Separed link</a>
+					</div>
+				</div>
+				
+				<input  class="form-control" type="text" name="ingresar" placeholder="Name">
+			</div>
+		</form>
+
+		<br><br><br>
+		
+		<form action="">
+			<div class="input-group p-5">
+				<input  class="form-control" type="text" name="ingresar" placeholder="Name">
+				<div class="input-group-append">
+					<button class="btn btn-outline-dark text-light" data-toggle="dropdown">Dropdown</button>
+					<button class="btn btn-outline-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></button>
+					<div class="dropdown-menu bg-primary">
+						<a href="#" class="dropdown-item">Garchar</a></i>
+						<a href="#" class="dropdown-item">jajaja</a></i>
+						<div role="divider"class="dropdown-divider active"></div>
+							<a href="hola" class="dropdown-item">Separed link</a>
+					</div>
+				</div>
+			</div>
+		</form>
+
+		
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.min.js"></script>
+	  	
+	</body>
+
+</html>
